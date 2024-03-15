@@ -1,0 +1,282 @@
+.footer {
+    position: relative;
+    top: 100px;
+    height: 250px;
+    background-color: #f7f4fa;
+}
+
+
+
+.footerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+
+.FooterStarted {
+    background-color: #ff7b00cd;
+    width: 350px;
+    height: 65px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    /* border-radius: 5px; */
+    /* cursor: pointer; */
+
+}
+
+.FooterTry {
+    position: relative;
+    margin: 5px;
+    right: 130px;
+    width: 250px;
+    height: 50px;
+    color: #ffffff;
+    background-color: black;
+    border: none;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    /* border-style: double; */
+    cursor: pointer;
+}
+
+.FoorterRequest {
+    position: relative;
+    right: 100px;
+    width: 250px;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    border-style: inset;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.mainFooter {
+    position: relative;
+    top: 240px;
+}
+
+.leftFooter {}
+
+.leftfooterImage {
+    width: 150px;
+    margin-left: 130px;
+    margin-top: -22px;
+}
+
+.Rights {
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.Copyrights {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.SocialIcon {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.Icons {
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Icons:hover {
+    background-color: #FF7A00;
+}
+
+.TwitterIcon {
+    margin-left: 7px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.Ficons {
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.Ficons:hover {
+    background-color: #FF7A00;
+}
+
+.FacebookIcon {
+    margin-left: 3px;
+    margin-top: 3px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.InstaIcon {
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -1px;
+    margin-left: 10px;
+}
+
+.InstaIcon:hover {
+    background-color: #FF7A00;
+}
+
+.InstagramIcon {
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.FooterList {
+    margin-left: 400px;
+    margin-top: -140px;
+}
+
+.FooterProduct {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+
+
+.FooterLinks {
+    line-height: 40px;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+
+
+.FooterCompany {
+    margin-left: 200px;
+    margin-top: -190px;
+}
+
+.FooterCompanyHeading {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+
+}
+
+.FooterCompanyLinks {
+    line-height: 40px;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+
+.FooterSupport {
+    margin-left: 450px;
+    margin-top: -220px;
+}
+
+.FooterSupportHeading {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+.FooterSupportLinks {
+    line-height: 40px;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.FooterContact {
+    margin-left: 650px;
+    margin-top: -260px;
+
+}
+
+.FooterContactHeading {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.FooterContactPhone {
+    display: flex;
+    margin-top: 12px;
+    color: gray;
+}
+
+.PhoneNumber {
+    margin-left: 5px;
+    margin-top: -2px;
+}
+
+.FooterContactEmail {
+    display: flex;
+    margin-top: 12px;
+    color: gray;
+}
+
+.FooterEmail {
+    margin-left: 5px;
+    margin-top: -2px;
+}
+
+.FooterContactLocation {
+    display: flex;
+    margin-top: 12px;
+    color: gray;
+}
+
+.Location {
+    margin-left: 6px;
+    margin-top: -2px;
+}
+
+.HorizandleLine {
+    margin-top: 180px;
+    width: 110%;
+    margin-left: -320px;
+}
+
+.TermService {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+
+.TermService p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 15px;
+    color: gray;
+    cursor: pointer;
+}

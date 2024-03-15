@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* #1d252c */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    height: 94px;
+    z-index: 9999;
+}
+
+
+
+.logo {
+    width: 180px;
+    margin-left: 80px;
+    margin-top: 20px;
+    /* height: 50px; */
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1000px;
+    margin-top: -43px;
+
+}
+
+.SearchBox {
+    position: relative;
+    right: 110px;
+    bottom: 15px;
+    top: -10px;
+
+}
+
+.SearchInput {
+    width: 130%;
+    height: 35px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.SearchBox.SearchInput::placeholder {
+    position: relative;
+    left: 20px;
+    right: -10px;
+    font-size: 15px;
+    padding: 0 30px;
+
+}
+
+.search {
+    width: 50px;
+    height: 35px;
+    color: white;
+    position: relative;
+    left: 232px;
+    top: -36.5px;
+    background-color: #0F629E;
+    cursor: pointer;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 1.5px;
+    border-bottom-left-radius: 1.5px;
+
+}
+
+.login {
+    position: relative;
+    left: -10px;
+    top: -28px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.login:hover {
+    color: #FF7A00;
+
+}
+
+.DemoBtn {
+    position: relative;
+    left: 10px;
+    top: -30px;
+    background-color: #0F629E;
+    color: #ffffff;
+    padding: 7px 14px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
