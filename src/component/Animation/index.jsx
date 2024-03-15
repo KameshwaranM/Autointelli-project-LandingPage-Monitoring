@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react'
-import '../Animation/index.css'
+import './index.css'
 
 export default function Animation() {
     const [h11,seth11]=useState("Autointelli")
